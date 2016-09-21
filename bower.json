@@ -1,0 +1,16 @@
+{
+  "name": "openweathermap",
+  "authors": "Ulises Gascón",
+  "description": "Module that displays weather information in a particular area.",
+  "keywords": [
+    "kingofapp",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/KingofApp",
+  "private": true,
+  "dependencies": {
+    "angular-openweathermap-api-factory": "^0.5.0",
+    "weather-icons": "^2.0.10"
+  }
+}

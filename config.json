@@ -1,0 +1,105 @@
+{
+	"name": "openweathermap",
+	"identifier": "openweathermap",
+	"description": {
+		"es-ES": "",
+		"en-US": ""
+	},
+	"documentation": {
+		"es-ES": "",
+		"en-US": ""
+	},
+	"descriptionShort": {
+		"es-ES": "Módulo que muestra datos meteorológicos en una zona concreta.",
+		"en-US": "Module that displays weather information in a particular area."
+	},
+	"icon": "room",
+	"type": "A",
+	"version": "0.0.1",
+	"author": "Ulises Gascón",
+	"category": ["weather", "owm", "openweathermap"],
+	"price": 0,
+	"subscription": false,
+	"canContain": false,
+	"platforms": [
+		"android",
+		"ios",
+		"windows"
+	],
+	"view": "modules/openweathermap/index.html",
+	"files": [
+		"modules/openweathermap/controller.js", "modules/openweathermap/style.html"
+	],
+	"scope": {
+		"appid": "<---- YOUR APPID ----->",
+		"units": "metric",
+		"lat": "40.4262687",
+		"lon": "-3.6662797"
+	},
+	"libs": [],
+	"config": [{
+		"templateOptions": {
+			"label": "AppId",
+			"required": true,
+			"description": "Api Key"
+		},
+		"type": "input",
+		"key": "appid"
+	}, {
+		"type": "input",
+		"key": "lat",
+		"templateOptions": {
+			"description": "latitud del punto",
+			"required": false,
+			"label": "latitud"
+		}
+	}, {
+		"templateOptions": {
+			"label": "longitud",
+			"required": false,
+			"description": "longitud del punto"
+		},
+		"type": "input",
+		"key": "lon"
+	}, {
+		"key": "lang",
+		"type": "select",
+		"templateOptions": {
+			"label": "Lenguaje",
+			"options": [{
+				"name": "Español",
+				"id": "es"
+			}, {
+				"name": "Inglés",
+				"id": "en"
+			}]
+		}
+	}, {
+		"key": "units",
+		"type": "select",
+		"templateOptions": {
+			"label": "Unidad de medida",
+			"options": [{
+				"name": "Métrico",
+				"id": "metric"
+			}, {
+				"name": "Imperial",
+				"id": "imperial"
+			}]
+		}
+	}],
+	"showOn": {
+		"menu": true,
+		"market": true,
+		"dragDrop": true
+	},
+	"images": {
+		"list": "modules/openweathermap/images/list.png",
+		"screenshots": [
+			"modules/openweathermap/images/screenshot01.png"
+		],
+		"popover": "modules/openweathermap/images/popover.png",
+		"banner": "modules/openweathermap/images/banner.png",
+		"logo": "modules/openweathermap/images/logo.png"
+	}
+}

@@ -1,0 +1,28 @@
+<div class="module openweathermap" ng-style="bgColor" ng-controller="openweathermapController as weather">
+    <!-- write your module html here -->
+    <div ng-if="weather.dataError">
+        <h1>ERROR! </h1>
+        <p translate>openweathermap.text1</p>
+        <p translate>openweathermap.text2</p>
+        <br>
+        <h2>Details: </h1>
+        <p>{{weather.error.code}}</p>
+        <p>{{weather.error.message}}</p>
+        <p><a href="https://openweathermap.desk.com/">Support</a></p>
+    </div>
+    <div id="wether-display" ng-if="!weather.dataError">
+        <div class="icon">
+            <i class="wi {{weather.windIcon}}"></i>
+        </div>
+        <div class="temperature">
+            {{weather.temp}}
+        </div>
+        <div class="weather">
+            {{weather.desc}} {{"openweathermap.text3" | translate}} {{weather.city}}
+            <div class="humidWind">
+				<p>{{weather.humid}} <i class="wi wi-humidity" title="percent humidity"></i> {{weather.windSpeed}} <i class="wi wi-wind from-{{weather.windDirect}}-deg" title="wind direction"></i></p>
+			</div>
+        </div>
+    </div>
+    <!-- end module html -->
+</div>
