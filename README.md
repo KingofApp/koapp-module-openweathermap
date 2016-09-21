@@ -8,8 +8,9 @@
 
 Module that displays weather information in a particular area.
 
-### Screenshot
-![openweathermap-screenshot01](images/screenshot01.png)
+### Images
+- [Logo](images/logo.png)
+- [Screenshot](images/screenshot01.png)
 
 ### Configuration for visualizer
 
