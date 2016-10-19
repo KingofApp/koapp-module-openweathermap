@@ -68,10 +68,10 @@
 			"label": "Lenguaje",
 			"options": [{
 				"name": "Español",
-				"id": "es"
+				"value": "es"
 			}, {
 				"name": "Inglés",
-				"id": "en"
+				"value": "en"
 			}]
 		}
 	}, {
@@ -81,10 +81,10 @@
 			"label": "Unidad de medida",
 			"options": [{
 				"name": "Métrico",
-				"id": "metric"
+				"value": "metric"
 			}, {
 				"name": "Imperial",
-				"id": "imperial"
+				"value": "imperial"
 			}]
 		}
 	}],
