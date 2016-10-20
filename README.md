@@ -27,17 +27,26 @@ You need an AppId from OpenWeatherMap. [Follow this steps](http://openweathermap
         "market": true,
         "dragDrop": true
       },
-      "libs": [{
-        "bower": {
-          "weather-icons": "^2.0.10"
+      "libs": [
+        {
+          "bower": {
+            "weather-icons": "^2.0.10"
+          },
+          "src": "bower_components/weather-icons/css/weather-icons-wind.min.css"
         },
-        "src": ["bower_components/weather-icons/css/weather-icons.min.css", "bower_components/weather-icons/css/weather-icons-wind.min.css"]
-        }, {
-        "bower": {
-          "angular-openweathermap-api-factory": "^0.5.0"
+        {
+          "bower": {
+            "weather-icons": "^2.0.10"
+          },
+          "src": "bower_components/weather-icons/css/weather-icons.min.css"
         },
-        "src": "bower_components/angular-openweathermap-api-factory/dist/angular-openweathermap-api-factory.min.js"
-      }],
+        {
+          "bower": {
+            "angular-openweathermap-api-factory": "^0.5.0"
+          },
+          "src": "bower_components/angular-openweathermap-api-factory/dist/angular-openweathermap-api-factory.min.js"
+        }
+      ],
       "view": "modules/openweathermap/index.html",
       "files": ["modules/openweathermap/controller.js", "modules/openweathermap/style.html"],
       "scope": {
