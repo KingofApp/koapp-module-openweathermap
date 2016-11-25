@@ -6,8 +6,8 @@
 		"en-US": ""
 	},
 	"documentation": {
-		"es-ES": "",
-		"en-US": ""
+	  "es-ES": "modules/openweathermap/documentation/es_ES.md",
+	  "en-US": "modules/openweathermap/documentation/en_US.md"
 	},
 	"descriptionShort": {
 		"es-ES": "Módulo que muestra datos meteorológicos en una zona concreta.",
