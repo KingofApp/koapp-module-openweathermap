@@ -6,8 +6,8 @@
 		"en-US": ""
 	},
 	"documentation": {
-		"es-ES": "",
-		"en-US": ""
+	  "es-ES": "modules/openweathermap/documentation/es_ES.md",
+	  "en-US": "modules/openweathermap/documentation/en_US.md"
 	},
 	"descriptionShort": {
 		"es-ES": "Módulo que muestra datos meteorológicos en una zona concreta.",
@@ -15,7 +15,7 @@
 	},
 	"icon": "room",
 	"type": "A",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"author": "Ulises Gascón",
 	"category": ["weather", "owm", "openweathermap"],
 	"price": 0,
@@ -36,17 +36,26 @@
 		"lat": "40.4262687",
 		"lon": "-3.6662797"
 	},
-	"libs": [{
-        "bower": {
-          "weather-icons": "^2.0.10"
-        },
-        "src": ["bower_components/weather-icons/css/weather-icons.min.css", "bower_components/weather-icons/css/weather-icons-wind.min.css"]
-        }, {
-        "bower": {
-          "angular-openweathermap-api-factory": "^0.5.0"
-        },
-        "src": "bower_components/angular-openweathermap-api-factory/dist/angular-openweathermap-api-factory.min.js"
-      }],
+	"libs": [
+		{
+			"bower": {
+				"weather-icons": "^2.0.10"
+			},
+			"src": "bower_components/weather-icons/css/weather-icons-wind.min.css"
+		},
+		{
+			"bower": {
+				"weather-icons": "^2.0.10"
+			},
+			"src": "bower_components/weather-icons/css/weather-icons.min.css"
+		},
+		{
+			"bower": {
+				"angular-openweathermap-api-factory": "^0.5.0"
+			},
+			"src": "bower_components/angular-openweathermap-api-factory/dist/angular-openweathermap-api-factory.min.js"
+		}
+	],
 	"config": [{
 		"templateOptions": {
 			"label": "AppId",
