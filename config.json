@@ -16,7 +16,7 @@
 	"icon": "room",
 	"type": "A",
 	"version": "1.0.0",
-	"author": "Ulises Gascón",
+	"author": "King of app",
 	"category": ["weather", "owm", "openweathermap"],
 	"price": 0,
 	"subscription": false,
@@ -42,12 +42,6 @@
 				"weather-icons": "^2.0.10"
 			},
 			"src": "bower_components/weather-icons/css/weather-icons-wind.min.css"
-		},
-		{
-			"bower": {
-				"weather-icons": "^2.0.10"
-			},
-			"src": "bower_components/weather-icons/css/weather-icons.min.css"
 		},
 		{
 			"bower": {
