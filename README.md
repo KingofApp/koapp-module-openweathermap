@@ -70,6 +70,6 @@ We created this module inspired from these libraries and examples
 
 ### Details:
 
-- Author: Ulises Gascón
+- Author: King of app
 - Version: 0.0.1
 - Homepage: https://github.com/KingofApp
