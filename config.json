@@ -2,16 +2,16 @@
 	"name": "Open Weather Map",
 	"identifier": "openweathermap",
 	"description": {
-		"es-ES": "",
-		"en-US": ""
+		"es-ES": "Muestra el tiempo actual de forma instantánea utilizando esta app! Entra la longitud y la latitud de tu ubicación y conéctala para ver la temperatura y el clima en tu area.",
+		"en-US": "Show the current weather instantly using this weatherapp! Enter the longitude and latitude of the location you would like to show on the map. This connects it to show the temperature, weather, and location of the area."
 	},
 	"documentation": {
 	  "es-ES": "modules/openweathermap/documentation/es_ES.md",
 	  "en-US": "modules/openweathermap/documentation/en_US.md"
 	},
 	"descriptionShort": {
-		"es-ES": "Módulo que muestra datos meteorológicos en una zona concreta.",
-		"en-US": "Module that displays weather information in a particular area."
+		"es-ES": "Muestra el clima actual instantáneamente con esta app!",
+		"en-US": "Show the current weather instantly using this weatherapp!"
 	},
 	"icon": "room",
 	"type": "A",
