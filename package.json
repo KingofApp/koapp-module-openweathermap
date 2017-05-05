@@ -1,6 +1,6 @@
 {
   "name": "openweathermap",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Module that displays weather information in a particular area.",
   "directories": {
     "test": "test"
@@ -21,6 +21,6 @@
     "mocha": "^3.0.2",
     "protractor": "2.0.0"
   },
-  "author": "King of app",
+  "author": "Koapp <koappnpmpublisher@gmail.com> (http://www.kingofapp.com)",
   "license": "MIT"
 }
