@@ -71,5 +71,5 @@ We created this module inspired from these libraries and examples
 ### Details:
 
 - Author: King of app
-- Version: 0.0.1
+- Version: 1.0.6
 - Homepage: https://github.com/KingofApp
