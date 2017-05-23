@@ -1,6 +1,6 @@
 {
     "name": "openweathermap",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Module that displays weather information in a particular area.",
     "directories": {
         "test": "test"
@@ -21,7 +21,8 @@
         "karma-mocha": "0.1.10",
         "mocha": "^3.0.2",
         "protractor": "2.0.0",
-        "gutil-color-log": "^1.0.2"
+        "gutil-color-log": "^1.0.2",
+        "pre-commit": "^1.1.2"
     },
     "author": "Koapp <koappnpmpublisher@gmail.com> (http://www.kingofapp.com)",
     "license": "MIT",
