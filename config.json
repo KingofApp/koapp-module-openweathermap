@@ -1,118 +1,135 @@
 {
-	"name": "Open Weather Map",
-	"identifier": "openweathermap",
-	"description": {
-		"es-ES": "Muestra el tiempo actual de forma instantánea utilizando esta app! Entra la longitud y la latitud de tu ubicación y conéctala para ver la temperatura y el clima en tu area.",
-		"en-US": "Show the current weather instantly using this weatherapp! Enter the longitude and latitude of the location you would like to show on the map. This connects it to show the temperature, weather, and location of the area."
-	},
-	"documentation": {
-	  "es-ES": "modules/openweathermap/documentation/es_ES.md",
-	  "en-US": "modules/openweathermap/documentation/en_US.md"
-	},
-	"descriptionShort": {
-		"es-ES": "Muestra el clima actual instantáneamente con esta app!",
-		"en-US": "Show the current weather instantly using this weatherapp!"
-	},
-	"icon": "room",
-	"type": "A",
-	"version": "1.0.6",
-	"author": "King of app",
-	"category": ["weather", "owm", "openweathermap"],
-	"price": 0,
-	"subscription": false,
-	"canContain": false,
-	"platforms": [
-		"android",
-		"ios",
-		"windows"
-	],
-	"view": "modules/openweathermap/index.html",
-	"files": [
-		"modules/openweathermap/controller.js", "modules/openweathermap/style.html"
-	],
-	"scope": {
-		"appid": "<---- YOUR APPID ----->",
-		"units": "metric",
-		"lat": "40.4262687",
-		"lon": "-3.6662797"
-	},
-	"libs": [
-		{
-			"bower": {
-				"weather-icons": "^2.0.10"
-			},
-			"src": "bower_components/weather-icons/css/weather-icons-wind.min.css"
-		},
-		{
-			"bower": {
-				"angular-openweathermap-api-factory": "^0.5.0"
-			},
-			"src": "bower_components/angular-openweathermap-api-factory/dist/angular-openweathermap-api-factory.min.js"
-		}
-	],
-	"config": [{
-		"templateOptions": {
-			"label": "AppId",
-			"required": true,
-			"description": "Api Key"
-		},
-		"type": "input",
-		"key": "appid"
-	}, {
-		"type": "input",
-		"key": "lat",
-		"templateOptions": {
-			"description": "latitud del punto",
-			"required": false,
-			"label": "latitud"
-		}
-	}, {
-		"templateOptions": {
-			"label": "longitud",
-			"required": false,
-			"description": "longitud del punto"
-		},
-		"type": "input",
-		"key": "lon"
-	}, {
-		"key": "lang",
-		"type": "select",
-		"templateOptions": {
-			"label": "Lenguaje",
-			"options": [{
-				"name": "Español",
-				"value": "es"
-			}, {
-				"name": "Inglés",
-				"value": "en"
-			}]
-		}
-	}, {
-		"key": "units",
-		"type": "select",
-		"templateOptions": {
-			"label": "Unidad de medida",
-			"options": [{
-				"name": "Métrico",
-				"value": "metric"
-			}, {
-				"name": "Imperial",
-				"value": "imperial"
-			}]
-		}
-	}],
-	"showOn": {
-		"menu": true,
-		"market": true,
-		"dragDrop": true
-	},
-	"images": {
-		"list": "modules/openweathermap/images/list.png",
-		"screenshots": [
-			"modules/openweathermap/images/screenshot01.png"
-		],
-		"popover": "modules/openweathermap/images/popover.png",
-		"banner": "modules/openweathermap/images/banner.png",
-		"logo": "modules/openweathermap/images/logo.png"
-	}
+    "name": "Open Weather Map",
+    "identifier": "openweathermap",
+    "description": {
+        "es-ES": "Muestra el tiempo actual de forma instantánea utilizando esta app! Entra la longitud y la latitud de tu ubicación y conéctala para ver la temperatura y el clima en tu area.",
+        "en-US": "Show the current weather instantly using this weatherapp! Enter the longitude and latitude of the location you would like to show on the map. This connects it to show the temperature, weather, and location of the area."
+    },
+    "documentation": {
+        "es-ES": "modules/openweathermap/documentation/es_ES.md",
+        "en-US": "modules/openweathermap/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Muestra el clima actual instantáneamente con esta app!",
+        "en-US": "Show the current weather instantly using this weatherapp!"
+    },
+    "icon": "room",
+    "type": "A",
+    "version": "1.0.7",
+    "author": "King of app",
+    "category": [
+        "weather",
+        "owm",
+        "openweathermap"
+    ],
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/openweathermap/index.html",
+    "files": [
+        "modules/openweathermap/controller.js",
+        "modules/openweathermap/style.html"
+    ],
+    "scope": {
+        "appid": "<---- YOUR APPID ----->",
+        "units": "metric",
+        "lat": "40.4262687",
+        "lon": "-3.6662797"
+    },
+    "libs": [
+        {
+            "bower": {
+                "weather-icons": "^2.0.10"
+            },
+            "src": "bower_components/weather-icons/css/weather-icons-wind.min.css"
+        },
+        {
+            "bower": {
+                "angular-openweathermap-api-factory": "^0.5.0"
+            },
+            "src": "bower_components/angular-openweathermap-api-factory/dist/angular-openweathermap-api-factory.min.js"
+        }
+    ],
+    "config": [
+        {
+            "templateOptions": {
+                "label": "AppId",
+                "required": true,
+                "description": "Api Key"
+            },
+            "type": "input",
+            "key": "appid"
+        },
+        {
+            "type": "input",
+            "key": "lat",
+            "templateOptions": {
+                "description": "latitud del punto",
+                "required": false,
+                "label": "latitud"
+            }
+        },
+        {
+            "templateOptions": {
+                "label": "longitud",
+                "required": false,
+                "description": "longitud del punto"
+            },
+            "type": "input",
+            "key": "lon"
+        },
+        {
+            "key": "lang",
+            "type": "select",
+            "templateOptions": {
+                "label": "Lenguaje",
+                "options": [
+                    {
+                        "name": "Español",
+                        "value": "es"
+                    },
+                    {
+                        "name": "Inglés",
+                        "value": "en"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "units",
+            "type": "select",
+            "templateOptions": {
+                "label": "Unidad de medida",
+                "options": [
+                    {
+                        "name": "Métrico",
+                        "value": "metric"
+                    },
+                    {
+                        "name": "Imperial",
+                        "value": "imperial"
+                    }
+                ]
+            }
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/openweathermap/images/list.png",
+        "screenshots": [
+            "modules/openweathermap/images/screenshot01.png"
+        ],
+        "popover": "modules/openweathermap/images/popover.png",
+        "banner": "modules/openweathermap/images/banner.png",
+        "logo": "modules/openweathermap/images/logo.png"
+    }
 }
